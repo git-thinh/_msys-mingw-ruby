@@ -56,6 +56,9 @@
 	To install nokogiri gem:
 		> ridk exec pacman -S mingw-w64-x86_64-libxslt
 		> gem install nokogiri --platform ruby -- --use-system-libraries
+	In Windows find "Start Command Prompt with Ruby" and RUN.
+		C:\Windows\System32\cmd.exe /E:ON /K C:\Ruby25-x64\bin\setrbvars.cmd
+		
 	
 # MSYS2-packages: 
 
